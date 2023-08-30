@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Magar0.github.io/React-Covid-Tracker/static/css/main.e9049f05.css",
-    "main.js": "/Magar0.github.io/React-Covid-Tracker/static/js/main.a06ba443.js",
-    "index.html": "/Magar0.github.io/React-Covid-Tracker/index.html",
-    "main.e9049f05.css.map": "/Magar0.github.io/React-Covid-Tracker/static/css/main.e9049f05.css.map",
-    "main.a06ba443.js.map": "/Magar0.github.io/React-Covid-Tracker/static/js/main.a06ba443.js.map"
+    "main.css": "/React-Covid-Tracker/static/css/main.e9049f05.css",
+    "main.js": "/React-Covid-Tracker/static/js/main.a06ba443.js",
+    "index.html": "/React-Covid-Tracker/index.html",
+    "main.e9049f05.css.map": "/React-Covid-Tracker/static/css/main.e9049f05.css.map",
+    "main.a06ba443.js.map": "/React-Covid-Tracker/static/js/main.a06ba443.js.map"
   },
   "entrypoints": [
     "static/css/main.e9049f05.css",
