@@ -1,0 +1,131 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+  h1,
+  h2 {
+      font-size: 3rem;
+  }
+
+  h6 {
+      position: relative;
+      animation: zoom-in-out 2s infinite;
+  }
+
+  .navbar .active {
+      background-color: dimgray;
+      color: white;
+      padding: 5px;
+  }
+
+  .navbar a {
+      margin-right: 30px;
+  }
+
+  /* Country................ */
+
+  section {
+      font-family: 'Roboto', sans-serif;
+      overflow-x: hidden;
+  }
+
+  .red-dot {
+      display: inline-block;
+      height: 8px;
+      width: 8px;
+      background-color: red;
+      border-radius: 50%;
+      margin-bottom: 2px;
+  }
+
+  @keyframes zoom-in-out {
+      0% {
+          transform: scale(1, 1);
+      }
+
+      50% {
+          transform: scale(1.5, 1.5);
+      }
+
+      100% {
+          transform: scale(1, 1);
+      }
+
+  }
+
+
+  .cards {
+      transition: all 0.2s;
+  }
+
+  .cards:hover {
+      animation: zoom-in;
+      cursor: pointer;
+      transform: scale(1.2, 1.2);
+      box-shadow: 12px 12px 2px 1px #dcdcdc;
+  }
+
+  @keyframes zoom-in {
+      0% {
+          transform: scale(1, 1);
+      }
+
+      100% {
+          transform: scale(1.5, 1.5);
+      }
+  }
+
+  /* SateWise..................... */
+
+  .table-responsive {
+      max-height: 700px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0 25px 50px -12px;
+      overflow-y: scroll
+  }
+
+  td,
+  th {
+      transition: all 0.2s;
+  }
+
+  .table tr td:hover:nth-child(5) {
+      background-color: rgb(231, 83, 115);
+      color: aliceblue;
+      border: 0.5px solid rgb(39, 39, 39);
+  }
+
+  .table tr td:hover {
+      background-color: rgb(174, 247, 174);
+      color: aliceblue;
+      border: 0.5px solid rgb(39, 39, 39);
+  }
+
+.table tr th{
+    background-color: rgb(165, 165, 196);
+}
+
+
+  /* MediaScreen Country.................` */
+
+
+  @media only screen and (max-width:1200px) {
+
+      h1,
+      h2 {
+          font-size: 2rem;
+
+      }
+  }
+
+  @media screen and (max-width: 1050px) {
+
+      .fs-4,
+      .fs-1,
+      .fs-3 {
+          font-size: 1rem !important;
+      }
+
+      .card-name {
+          font-size: .7rem;
+      }
+
+  }
